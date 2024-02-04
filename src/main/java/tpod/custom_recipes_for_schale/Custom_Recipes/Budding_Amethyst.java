@@ -8,8 +8,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Budding_Amethyst implements Listener {
-    public void BA()
-    {
+    public void BA() {
         ShapedRecipe BA = new ShapedRecipe(new ItemStack(Material.BUDDING_AMETHYST))
                 .shape("ABA", "BCB", "ABA")
                 .setIngredient('A', Material.AMETHYST_BLOCK)

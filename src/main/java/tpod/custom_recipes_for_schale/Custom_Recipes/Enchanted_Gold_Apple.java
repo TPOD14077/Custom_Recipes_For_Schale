@@ -7,7 +7,7 @@ import org.bukkit.inventory.ShapedRecipe;
 
 import static org.bukkit.Bukkit.getServer;
 
-public class Enchanted_gold_apple implements Listener {
+public class Enchanted_Gold_Apple implements Listener {
     public void Ega(){
         ShapedRecipe Ega = new ShapedRecipe(new ItemStack(Material.ENCHANTED_GOLDEN_APPLE))
                 .shape("ABA", "CDC", "ABA")
