@@ -9,7 +9,7 @@ import static org.bukkit.Bukkit.getServer;
 
 public class Experience_Bottle implements Listener {
     public void EB(){
-        ShapedRecipe EB = new ShapedRecipe(new ItemStack(Material.EXPERIENCE_BOTTLE))
+        ShapedRecipe EB = new ShapedRecipe(new ItemStack(Material.EXPERIENCE_BOTTLE,3))
                 .shape(" A ","BCB"," B ")
                 .setIngredient('A', Material.OAK_LOG)
                 .setIngredient('B', Material.GLASS)
