@@ -1,12 +1,14 @@
 package tpod.custom_recipes_for_schale;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import tpod.custom_recipes_for_schale.Custom_Recipes.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.*;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Coral_Block.Dead.Coral.*;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Coral_Block.Dead.Coral_Fan.*;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Coral_Block.Living.Coral.*;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Coral_Block.Living.Coral_Fan.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Dead.Coral.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Dead.Coral_Fan.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Coral.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Coral_Fan.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Deepslate_Diamond_Ore;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Diamond_Ore;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
 
 public final class Custom_Recipes_For_Schale extends JavaPlugin {
 
