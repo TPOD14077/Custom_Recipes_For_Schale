@@ -3,6 +3,8 @@ package tpod.custom_recipes_for_schale;
 import org.bukkit.plugin.java.JavaPlugin;
 import tpod.custom_recipes_for_schale.Custom_Recipes.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral_Block.Living.Coral.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral_Block.Living.Coral_Fan.*;
 
 public final class Custom_Recipes_For_Schale extends JavaPlugin {
 
@@ -27,6 +29,16 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new Chainmail_Boots(),this);
         getServer().getPluginManager().registerEvents(new Flint(),this);
         getServer().getPluginManager().registerEvents(new Bell(),this);
+        getServer().getPluginManager().registerEvents(new Tube_Coral_Block(),this);
+        getServer().getPluginManager().registerEvents(new Tube_Coral_Block_FAN(),this);
+        getServer().getPluginManager().registerEvents(new Brain_Coral_Block(),this);
+        getServer().getPluginManager().registerEvents(new Brain_Coral_Block_FAN(),this);
+        getServer().getPluginManager().registerEvents(new Bubble_Coral_Block(),this);
+        getServer().getPluginManager().registerEvents(new Bubble_Coral_Block_FAN(),this);
+        getServer().getPluginManager().registerEvents(new Fire_Coral_Block(),this);
+        getServer().getPluginManager().registerEvents(new Fire_Coral_Block_FAN(),this);
+        getServer().getPluginManager().registerEvents(new Horn_Coral_Block(),this);
+        getServer().getPluginManager().registerEvents(new Horn_Coral_Block_FAN(),this);
         new Enchanted_Gold_Apple().Ega();
         new Elytra().ely();
         new Budding_Amethyst().BA();
@@ -45,6 +57,16 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
         new Chainmail_Boots().CB();
         new Flint().Fli();
         new Bell().bell();
+        new Tube_Coral_Block().TCB();
+        new Tube_Coral_Block_FAN().TCB2();
+        new Brain_Coral_Block().BCB();
+        new Brain_Coral_Block_FAN().BCB2();
+        new Bubble_Coral_Block().BuCB();
+        new Bubble_Coral_Block_FAN().BuCB2();
+        new Fire_Coral_Block().FCB();
+        new Fire_Coral_Block_FAN().FCB2();
+        new Horn_Coral_Block().HCB();
+        new Horn_Coral_Block_FAN().HCB2();
         System.out.println("[Schale自定义配方]已成功被加载");
     }
 
