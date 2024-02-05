@@ -11,8 +11,8 @@ public class Deepslate_Diamond_Ore implements Listener {
     public void DDO() {
         ShapedRecipe DDO = new ShapedRecipe(new ItemStack(Material.DEEPSLATE_DIAMOND_ORE,3))
                 .shape("AAA","ABA","AAA")
-                .setIngredient('A', Material.DEEPSLATE_DIAMOND_ORE)
-                .setIngredient('B', Material.DIAMOND);
+                .setIngredient('A', Material.DEEPSLATE)
+                .setIngredient('B', Material.DIAMOND_BLOCK);
         getServer().addRecipe(DDO);
     }
 }

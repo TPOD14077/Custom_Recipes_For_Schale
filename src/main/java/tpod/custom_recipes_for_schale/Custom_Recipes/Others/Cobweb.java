@@ -10,7 +10,7 @@ import static org.bukkit.Bukkit.getServer;
 public class Cobweb implements Listener {
     public void CW(){
         ShapedRecipe CW = new ShapedRecipe(new ItemStack(Material.COBWEB))
-        .shape("AAA","ABA","AAA")
+                .shape("AAA","ABA","AAA")
                 .setIngredient('A', Material.STRING)
                 .setIngredient('B', Material.SLIME_BALL);
         getServer().addRecipe(CW);
