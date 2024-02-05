@@ -9,7 +9,7 @@ import static org.bukkit.Bukkit.getServer;
 
 public class Dead_Bubble_Coral implements Listener {
     public void DBuC(){
-        ShapedRecipe DBuC = new ShapedRecipe(new ItemStack(Material.DEAD_BUBBLE_CORAL))
+        ShapedRecipe DBuC = new ShapedRecipe(new ItemStack(Material.DEAD_BUBBLE_CORAL,9))
                 .shape("AAA")
                 .setIngredient('A', Material.DEAD_BUBBLE_CORAL_BLOCK);
         getServer().addRecipe(DBuC);

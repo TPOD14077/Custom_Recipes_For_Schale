@@ -9,7 +9,7 @@ import static org.bukkit.Bukkit.getServer;
 
 public class Horn_Coral implements Listener {
     public void HC(){
-        ShapedRecipe HC = new ShapedRecipe(new ItemStack(Material.HORN_CORAL))
+        ShapedRecipe HC = new ShapedRecipe(new ItemStack(Material.HORN_CORAL,9))
                 .shape("AAA")
                 .setIngredient('A', Material.HORN_CORAL_BLOCK);
         getServer().addRecipe(HC);

@@ -9,7 +9,7 @@ import static org.bukkit.Bukkit.getServer;
 
 public class Brain_Coral implements Listener {
     public void BC(){
-        ShapedRecipe BC = new ShapedRecipe(new ItemStack(Material.BRAIN_CORAL))
+        ShapedRecipe BC = new ShapedRecipe(new ItemStack(Material.BRAIN_CORAL,9))
                 .shape("AAA")
                 .setIngredient('A', Material.BRAIN_CORAL_BLOCK);
         getServer().addRecipe(BC);

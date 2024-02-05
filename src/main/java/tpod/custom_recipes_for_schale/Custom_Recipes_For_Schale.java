@@ -8,6 +8,8 @@ import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Dead.Cora
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Dead.Coral_Fan.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Coral.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Coral_Fan.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Fan.Dead.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Fan.Living.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
 
@@ -64,6 +66,16 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new Bubble_Coral(),this);
         getServer().getPluginManager().registerEvents(new Brain_Coral(),this);
         getServer().getPluginManager().registerEvents(new Tube_Coral(),this);
+        getServer().getPluginManager().registerEvents(new Horn_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Tube_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Fire_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Bubble_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Brain_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Dead_Horn_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Dead_Tube_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Dead_Brain_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Dead_Fire_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Dead_Bubble_Coral_Fan(),this);
         new Enchanted_Gold_Apple().Ega();
         new Elytra().ely();
         new Budding_Amethyst().BA();
@@ -112,6 +124,16 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
         new Bubble_Coral().BuC();
         new Tube_Coral().TC();
         new Fire_Coral().FC();
+        new Dead_Tube_Coral_Fan().DTCF();
+        new Dead_Brain_Coral_Fan().DBCF();
+        new Dead_Bubble_Coral_Fan().DBuCF();
+        new Dead_Fire_Coral_Fan().DFCF();
+        new Dead_Horn_Coral_Fan().DHCF();
+        new Horn_Coral_Fan().HCF();
+        new Brain_Coral_Fan().BCF();
+        new Bubble_Coral_Fan().BuCF();
+        new Tube_Coral_Fan().TCF();
+        new Fire_Coral_Fan().FCF();
         System.out.println("[Schale自定义配方]已成功被加载");
     }
 

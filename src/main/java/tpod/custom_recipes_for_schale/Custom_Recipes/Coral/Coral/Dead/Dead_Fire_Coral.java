@@ -9,7 +9,7 @@ import static org.bukkit.Bukkit.getServer;
 
 public class Dead_Fire_Coral implements Listener {
     public void DFC(){
-        ShapedRecipe DFC = new ShapedRecipe(new ItemStack(Material.DEAD_FIRE_CORAL))
+        ShapedRecipe DFC = new ShapedRecipe(new ItemStack(Material.DEAD_FIRE_CORAL,9))
                 .shape("AAA")
                 .setIngredient('A', Material.DEAD_FIRE_CORAL_BLOCK);
         getServer().addRecipe(DFC);
