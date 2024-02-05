@@ -10,6 +10,7 @@ import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Co
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Coral_Fan.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Fan.Dead.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Fan.Living.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Music_Disks.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
 
@@ -76,6 +77,21 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new Dead_Brain_Coral_Fan(),this);
         getServer().getPluginManager().registerEvents(new Dead_Fire_Coral_Fan(),this);
         getServer().getPluginManager().registerEvents(new Dead_Bubble_Coral_Fan(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_13(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_strad(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_stal(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_mellohi(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_mall(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_cat(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_blocks(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_chirp(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_far(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_ward(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_11(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_wait(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_otherside(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_pigstep(),this);
+        getServer().getPluginManager().registerEvents(new Music_Disk_relic(),this);
         new Enchanted_Gold_Apple().Ega();
         new Elytra().ely();
         new Budding_Amethyst().BA();
@@ -134,12 +150,27 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
         new Bubble_Coral_Fan().BuCF();
         new Tube_Coral_Fan().TCF();
         new Fire_Coral_Fan().FCF();
-        System.out.println("[Schale自定义配方]已成功被加载");
+        new Music_Disk_13().MD13();
+        new Music_Disk_strad().MDs();
+        new Music_Disk_stal().MDsta();
+        new Music_Disk_mellohi().MDm();
+        new Music_Disk_mall().MDma();
+        new Music_Disk_cat().MDc();
+        new Music_Disk_blocks().MDb();
+        new Music_Disk_chirp().MDch();
+        new Music_Disk_far().MDf();
+        new Music_Disk_ward().MDw();
+        new Music_Disk_11().MD11();
+        new Music_Disk_wait().MDwa();
+        new Music_Disk_otherside().MDo();
+        new Music_Disk_pigstep().MDp();
+        new Music_Disk_relic().MDr();
+        System.out.println("[Schale鑷畾涔夐厤鏂筣宸叉垚鍔熻鍔犺浇");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        System.out.println("[Schale自定义配方]已成功被卸载");
+        System.out.println("[Schale鑷畾涔夐厤鏂筣宸叉垚鍔熻鍗歌浇");
     }
 }
