@@ -10,7 +10,7 @@ import static org.bukkit.Bukkit.getServer;
 public class Trident implements Listener {
     public void Tr(){
         ShapedRecipe Tr = new ShapedRecipe(new ItemStack(Material.TRIDENT))
-                .shape(" AA"," BA","A  ")
+                .shape(" AA"," BA","B  ")
                 .setIngredient('A', Material.NETHER_STAR)
                 .setIngredient('B', Material.DIAMOND);
         getServer().addRecipe(Tr);
