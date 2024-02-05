@@ -6,8 +6,7 @@ import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Dead.Cora
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Dead.Coral_Fan.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Coral.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Coral_Fan.*;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Deepslate_Diamond_Ore;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Diamond_Ore;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
 
 public final class Custom_Recipes_For_Schale extends JavaPlugin {
