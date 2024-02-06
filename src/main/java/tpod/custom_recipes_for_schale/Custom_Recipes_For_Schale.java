@@ -36,13 +36,13 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
         new Name_Tag().NT();
         new Experience_Bottle().EB();
         new Trident().Tr();
-        System.out.println("[Schale自定义配方]已成功被加载");
+        System.out.println("[Schale鑷畾涔夐厤鏂筣宸叉垚鍔熻鍔犺浇");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
         resetRecipes();
-        System.out.println("[Schale自定义配方]已成功被卸载");
+        System.out.println("[Schale鑷畾涔夐厤鏂筣宸叉垚鍔熻鍗歌浇");
     }
 }
