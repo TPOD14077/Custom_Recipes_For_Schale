@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Enchanted_Gold_Apple implements Listener {
-    NamespacedKey key = new NamespacedKey("Enchanted_Gold_Apple","Custom_Recipes_For_Schale");
+    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Enchanted_Gold_Apple");
     public void Ega(){
         ShapedRecipe Ega = new ShapedRecipe(key,new ItemStack(Material.ENCHANTED_GOLDEN_APPLE))
                 .shape("ABA", "CDC", "ABA")
