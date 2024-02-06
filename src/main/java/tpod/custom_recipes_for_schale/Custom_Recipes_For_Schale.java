@@ -1,7 +1,8 @@
 package tpod.custom_recipes_for_schale;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Deepslate_Diamond_Ore;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Diamond_Ore;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
 
 import static org.bukkit.Bukkit.resetRecipes;
@@ -41,7 +42,7 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        getServer().resetRecipes();
+        resetRecipes();
         System.out.println("[Schale自定义配方]已成功被卸载");
     }
 }
