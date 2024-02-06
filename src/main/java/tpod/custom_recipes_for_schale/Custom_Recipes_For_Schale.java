@@ -4,6 +4,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
 
+import static org.bukkit.Bukkit.resetRecipes;
+
 public final class Custom_Recipes_For_Schale extends JavaPlugin {
 
     @Override
