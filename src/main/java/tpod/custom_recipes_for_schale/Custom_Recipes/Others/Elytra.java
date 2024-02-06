@@ -1,7 +1,6 @@
 package tpod.custom_recipes_for_schale.Custom_Recipes.Others;
 
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
@@ -9,9 +8,8 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Elytra implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Elytra");
     public void ely(){
-        ShapedRecipe ely = new ShapedRecipe(key,new ItemStack(Material.ELYTRA))
+        ShapedRecipe ely = new ShapedRecipe(new ItemStack(Material.ELYTRA))
                 .shape("ABA", "CDC", "E E")
                 .setIngredient('A', Material.WHITE_WOOL)
                 .setIngredient('B', Material.CHORUS_FLOWER)
