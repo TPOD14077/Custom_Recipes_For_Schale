@@ -12,7 +12,7 @@ public class Diamond_Ore implements Listener {
         ShapedRecipe DO = new ShapedRecipe(new ItemStack(Material.DIAMOND_ORE,3))
                 .shape("AAA","ABA","AAA")
                 .setIngredient('A', Material.STONE)
-                .setIngredient('B', Material.DIAMOND);
+                .setIngredient('B', Material.DIAMOND_BLOCK);
         getServer().addRecipe(DO);
     }
 }
