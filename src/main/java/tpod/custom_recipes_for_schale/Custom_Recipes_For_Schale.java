@@ -39,6 +39,7 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        getServer().resetRecipes();
         System.out.println("[Schale自定义配方]已成功被卸载");
     }
 }
