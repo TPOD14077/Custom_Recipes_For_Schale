@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapelessRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Magma_Cream implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Magma_Cream");
+    NamespacedKey key = new NamespacedKey("Magma_Cream","Custom_Recipes_For_Schale");
     public void MC() {
         ShapelessRecipe MC = new ShapelessRecipe(key,new ItemStack(Material.MAGMA_CREAM,3))
                 .addIngredient(Material.MAGMA_BLOCK);

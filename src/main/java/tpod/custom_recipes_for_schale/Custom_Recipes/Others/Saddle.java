@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Saddle implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Saddle");
+    NamespacedKey key = new NamespacedKey("Saddle","Custom_Recipes_For_Schale");
     public void sd(){
         ShapedRecipe sd = new ShapedRecipe(key,new ItemStack(Material.SADDLE))
                 .shape("ABA","CDC","C C")

@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Name_Tag implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Name_Tag");
+    NamespacedKey key = new NamespacedKey("Name_Tag","Custom_Recipes_For_Schale");
     public void NT(){
         ShapedRecipe NT = new ShapedRecipe(key,new ItemStack(Material.NAME_TAG))
                 .shape("ABB","CDB","D  ")

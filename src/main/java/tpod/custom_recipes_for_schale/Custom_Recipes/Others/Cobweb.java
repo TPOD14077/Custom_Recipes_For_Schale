@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Cobweb implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Cobweb");
+    NamespacedKey key = new NamespacedKey("Cobweb","Custom_Recipes_For_Schale");
     public void CW(){
         ShapedRecipe CW = new ShapedRecipe(key,new ItemStack(Material.COBWEB))
                 .shape("AAA","ABA","AAA")

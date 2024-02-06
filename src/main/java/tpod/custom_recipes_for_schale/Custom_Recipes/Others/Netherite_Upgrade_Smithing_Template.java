@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Netherite_Upgrade_Smithing_Template implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Netherite_Upgrade_Smithing_Template");
+    NamespacedKey key = new NamespacedKey("Netherite_Upgrade_Smithing_Template","Custom_Recipes_For_Schale");
     public void NUST()
     {
         ShapedRecipe NUST = new ShapedRecipe(key,new ItemStack(Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE))

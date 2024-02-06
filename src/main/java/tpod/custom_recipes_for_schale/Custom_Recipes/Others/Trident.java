@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Trident implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Trident");
+    NamespacedKey key = new NamespacedKey("Trident","Custom_Recipes_For_Schale");
     public void Tr(){
         ShapedRecipe Tr = new ShapedRecipe(key,new ItemStack(Material.TRIDENT))
                 .shape(" AA"," BA","B  ")

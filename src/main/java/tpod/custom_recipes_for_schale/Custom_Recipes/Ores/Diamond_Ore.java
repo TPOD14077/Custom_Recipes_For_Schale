@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Diamond_Ore implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Diamond_Ore");
+    NamespacedKey key = new NamespacedKey("Diamond_Ore","Custom_Recipes_For_Schale");
     public void DO(){
         ShapedRecipe DO = new ShapedRecipe(key,new ItemStack(Material.DIAMOND_ORE,3))
                 .shape("AAA","ABA","AAA")

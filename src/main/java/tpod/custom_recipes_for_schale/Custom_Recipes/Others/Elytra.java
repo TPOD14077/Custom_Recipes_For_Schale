@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Elytra implements Listener {
-    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Elytra");
+    NamespacedKey key = new NamespacedKey("Elytra","Custom_Recipes_For_Schale");
     public void ely(){
         ShapedRecipe ely = new ShapedRecipe(key,new ItemStack(Material.ELYTRA))
                 .shape("ABA", "CDC", "E E")
