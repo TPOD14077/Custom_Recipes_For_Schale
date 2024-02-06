@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Deepslate_Diamond_Ore implements Listener {
-    NamespacedKey key = new NamespacedKey("Deepslate_Diamond_Ore","Custom_Recipes_For_Schale");
+    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Deepslate_Diamond_Ore");
     public void DDO() {
         ShapedRecipe DDO = new ShapedRecipe(key,new ItemStack(Material.DEEPSLATE_DIAMOND_ORE,3))
                 .shape("AAA","ABA","AAA")

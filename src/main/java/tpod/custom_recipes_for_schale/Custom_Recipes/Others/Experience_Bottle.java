@@ -9,7 +9,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Experience_Bottle implements Listener {
-    NamespacedKey key = new NamespacedKey("Experience_Bottle","Custom_Recipes_For_Schale");
+    NamespacedKey key = new NamespacedKey("Custom_Recipes_For_Schale","Experience_Bottle");
     public void EB(){
         ShapedRecipe EB = new ShapedRecipe(key,new ItemStack(Material.EXPERIENCE_BOTTLE,3))
                 .shape(" A ","BCB"," B ")
