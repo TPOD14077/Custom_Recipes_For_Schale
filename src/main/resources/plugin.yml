@@ -1,4 +1,4 @@
 name: Custom_Recipes_For_Schale
-version: '1.1'
+version: '1.2'
 main: tpod.custom_recipes_for_schale.Custom_Recipes_For_Schale
 api-version: '1.20'
