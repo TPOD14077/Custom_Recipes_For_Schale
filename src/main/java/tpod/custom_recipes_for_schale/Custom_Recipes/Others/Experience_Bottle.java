@@ -5,11 +5,12 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
+import tpod.custom_recipes_for_schale.Custom_Recipes_For_Schale;
 
 import static org.bukkit.Bukkit.getServer;
 
 public class Experience_Bottle implements Listener {
-    NamespacedKey key = new NamespacedKey("Experience_Bottle","Custom_Recipes_For_Schale");
+    NamespacedKey key = new NamespacedKey("crfs","experience_bottle");
     public void EB(){
         ShapedRecipe EB = new ShapedRecipe(key,new ItemStack(Material.EXPERIENCE_BOTTLE,3))
                 .shape(" A ","BCB"," B ")
