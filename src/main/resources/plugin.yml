@@ -1,5 +1,5 @@
 name: Custom_Recipes_For_Schale
-version: '1.2'
+version: '1.3'
 main: tpod.custom_recipes_for_schale.Custom_Recipes_For_Schale
 api-version: '1.20'
 plugin-id: crfs
