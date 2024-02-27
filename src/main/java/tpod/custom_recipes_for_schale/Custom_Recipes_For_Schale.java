@@ -1,5 +1,6 @@
 package tpod.custom_recipes_for_schale;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral.Dead.*;
@@ -13,6 +14,8 @@ import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Fan.Living.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Music_Disks.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
+
+import static org.bukkit.Bukkit.resetRecipes;
 
 public final class Custom_Recipes_For_Schale extends JavaPlugin {
 
@@ -171,6 +174,7 @@ public final class Custom_Recipes_For_Schale extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        Bukkit.getServer().resetRecipes();
         System.out.println("[Schale自定义配方]已成功被卸载");
     }
 }
