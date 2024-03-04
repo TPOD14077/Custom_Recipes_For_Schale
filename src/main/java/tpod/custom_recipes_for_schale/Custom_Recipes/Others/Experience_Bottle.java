@@ -5,7 +5,6 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
-import tpod.custom_recipes_for_schale.Custom_Recipes_For_Schale;
 
 import static org.bukkit.Bukkit.getServer;
 

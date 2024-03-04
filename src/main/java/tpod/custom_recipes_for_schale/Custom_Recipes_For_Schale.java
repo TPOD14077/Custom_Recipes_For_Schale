@@ -2,7 +2,10 @@ package tpod.custom_recipes_for_schale;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.Chainmail_Boots;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.Chainmail_Chestplate;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.Chainmail_Helmet;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Chainmail_Armor.Chainmail_Leggings;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral.Dead.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral.Living.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Dead.Coral.*;
@@ -12,10 +15,9 @@ import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Block.Living.Co
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Fan.Dead.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Coral.Coral_Fan.Living.*;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Music_Disks.*;
-import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.*;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Deepslate_Diamond_Ore;
+import tpod.custom_recipes_for_schale.Custom_Recipes.Ores.Diamond_Ore;
 import tpod.custom_recipes_for_schale.Custom_Recipes.Others.*;
-
-import static org.bukkit.Bukkit.resetRecipes;
 
 public final class Custom_Recipes_For_Schale extends JavaPlugin {
 
