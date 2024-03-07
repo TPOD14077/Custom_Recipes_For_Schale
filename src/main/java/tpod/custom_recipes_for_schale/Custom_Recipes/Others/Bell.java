@@ -8,8 +8,9 @@ import org.bukkit.inventory.ShapedRecipe;
 import static org.bukkit.Bukkit.getServer;
 
 public class Bell implements Listener {
-    public void bell(){
-        ShapedRecipe bell = new ShapedRecipe(new ItemStack(Material.BELL))
+    NamespacedKey key = new NamespacedKey("crfs","bell");
+    public void bell() {
+        ShapedRecipe bell = new ShapedRecipe(key,new ItemStack(Material.BELL))
                 .shape("AAA","BBB","BCB")
                 .setIngredient('A', Material.STICK)
                 .setIngredient('B', Material.GOLD_INGOT)
