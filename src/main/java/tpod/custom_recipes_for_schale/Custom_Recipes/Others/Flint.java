@@ -4,10 +4,12 @@ import org.bukkit.Material;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
+import org.bukkit.Namespacekey;
 
 import static org.bukkit.Bukkit.getServer;
 
 public class Flint implements Listener {
+    Namespacekey key = new Namespacekey()
     public void Fli(){
         ShapedRecipe Fli = new ShapedRecipe(new ItemStack(Material.FLINT))
                 .shape(" A ","AAA"," AA")
