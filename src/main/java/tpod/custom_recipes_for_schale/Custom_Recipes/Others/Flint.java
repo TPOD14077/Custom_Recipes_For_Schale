@@ -9,7 +9,7 @@ import org.bukkit.Namespacekey;
 import static org.bukkit.Bukkit.getServer;
 
 public class Flint implements Listener {
-    Namespacekey key = new Namespacekey()
+    Namespacekey key = new Namespacekey("crfs","flint");
     public void Fli(){
         ShapedRecipe Fli = new ShapedRecipe(new ItemStack(Material.FLINT))
                 .shape(" A ","AAA"," AA")
