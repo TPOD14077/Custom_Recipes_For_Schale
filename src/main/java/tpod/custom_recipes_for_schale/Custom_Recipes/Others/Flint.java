@@ -11,7 +11,7 @@ import static org.bukkit.Bukkit.getServer;
 public class Flint implements Listener {
     NamespacedKey key = new NamespacedKey("crfs","flint");
     public void Fli(){
-        ShapedRecipe Fli = new ShapedRecipe(new ItemStack(Material.FLINT))
+        ShapedRecipe Fli = new ShapedRecipe(new ItemStack(Material.FLINT),4)
                 .shape(" A ","AAA"," AA")
                 .setIngredient('A', Material.GRAVEL);
         getServer().addRecipe(Fli);
